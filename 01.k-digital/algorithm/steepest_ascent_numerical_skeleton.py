@@ -1,11 +1,11 @@
 import random
 import math
 import time
-
+ 
 DELTA = 0.01   # Mutation step size
 NumEval = 0    # Total number of evaluations
 
-def main():
+def main() :
     start = time.time()
     # Create an instance of numerical optimization problem
     # 입력 txt 파일에서 수식과 변수의 범위를 읽어와 반환  
