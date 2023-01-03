@@ -14,7 +14,7 @@ def main():
     alg.displaySetting()
 
     p.report()
-
+   
 
 def selectProblem():
     print("Select the problem type:")
