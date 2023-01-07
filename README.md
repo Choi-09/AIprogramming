@@ -1,5 +1,6 @@
 # AIprogramming
-<img src = "https://blogfiles.pstatic.net/MjAyMDA0MDNfMTA2/MDAxNTg1OTExMDQ1NTI5.P17sN8p2a9-VLxBj925pnc5VObM_bjGZXMF9b_dW_zcg.B3qmjqddpLwMzuH02GGhkM79Nxut3pmCGhVe-PGx6dIg.PNG.kjh920411/image.png">
+<img src = "https://blogfiles.pstatic.net/MjAyMDA0MDNfMTA2/MDAxNTg1OTExMDQ1NTI5.P17sN8p2a9-VLxBj925pnc5VObM_bjGZXMF9b_dW_zcg.B3qmjqddpLwMzuH02GGhkM79Nxut3pmCGhVe-PGx6dIg.PNG.kjh920411/image.png">[이미지 출처](https://blog.naver.com/kjh920411/221889422562) <br/>
+
 
 ![머신러닝1](https://user-images.githubusercontent.com/51871037/211139916-66cd7078-285a-413c-8525-9c426303800b.PNG)
 ![머신러닝2](https://user-images.githubusercontent.com/51871037/211139919-d4efe0ec-7cdd-4ca6-8181-bb386f758fb7.PNG)
