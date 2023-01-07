@@ -33,11 +33,14 @@ y = mx +b
 - m: 기울기
 - b: Y절편
 
-<div>
-  <img src="C:/Users/user/PythonMLWorkspace/images/linearRegression.png" align = 'left' width = 40%>
-</div> <br>
+<a>
+  <img src= "https://user-images.githubusercontent.com/51871037/211140756-dafc7368-3d3d-43d5-92a1-094b416da2ee.PNG"
+align = 'left' width = 40%> <br/>   
+</a>   
+
 데이터는 좌표평면 위에 순서쌍 (X, Y)로 표현할 수 있다. <br> 모든 점을 지나는 직선이 가장 이상적인 선형회귀 모델이지만 현실적으로 불가능하므로, 가능한 범위에서 가장 좋은 직선을 찾아야 한다.
-  
+
+
 #### 선형회귀모델 최적의 직선 찾기
 - RSS: 잔차 제곱의 합
 - OLS: 최소제곱법 (노이즈(이상치)에 취약하다)
