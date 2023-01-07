@@ -53,9 +53,9 @@ y = b + m1x + m2x^2 + m3x^3 + ... + mnx^n <br/>
 + 참고사이트: https://arachnoid.com/polysolve/
 ```   
 ** 원 핫 인코딩 **
-+ 표현하고 싶은 값만 1로, 나머지는 모두 0으로 <br/>
-<img src= "https://user-images.githubusercontent.com/51871037/211142177-5b1aeb21-c010-4bf0-872e-cc5532019d77.PNG">
+- 표현하고 싶은 값만 1로, 나머지는 모두 0으로 
 ```
+<img src= "https://user-images.githubusercontent.com/51871037/211142177-5b1aeb21-c010-4bf0-872e-cc5532019d77.PNG">
 ```
 ** 다중 공선성**
 독립 변수들 간에 서로 강한 상관관계를 가지면서 회귀계수 추정의 오류가 나타나는 문제 <br/>
