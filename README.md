@@ -43,14 +43,16 @@ y = mx +b
   
 ### (2) 다중 선형 회귀
 y = mx1 + nx2 + kx3 +b
+<img src= "https://user-images.githubusercontent.com/51871037/211141939-7525a292-d357-4d55-a0e8-4024bd295d42.png"> 
 
 ### (3) 다항회귀
 y = b + m1x + m2x^2 + m3x^3 + ... + mnx^n <br/>
+<img src= "https://user-images.githubusercontent.com/51871037/211142035-17ffa7b5-14b8-4070-9699-4125d59cd56a.png">
 + 참고사이트: https://arachnoid.com/polysolve/
     
 #### > 원 핫 인코딩
 + 표현하고 싶은 값만 1로, 나머지는 모두 0으로 <br/>
-<img src= "https://user-images.githubusercontent.com/51871037/211141097-4ac96203-6fec-42dc-8c40-fd576c4584e7.PNG">
+<img src= "https://user-images.githubusercontent.com/51871037/211141097-4ac96203-6fec-42dc-8c40-fd576c4584e7.png">
   
 #### > 다중 공선성
 독립 변수들 간에 서로 강한 상관관계를 가지면서 회귀계수 추정의 오류가 나타나는 문제 <br/>
