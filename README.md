@@ -1,5 +1,5 @@
 # AIprogramming
-<a href="[https://itholic.github.io](https://blog.naver.com/kjh920411/221889422562)/" target="_blank">
+<a href="https://blog.naver.com/kjh920411/221889422562/" target="_blank">
 <img src = "https://blogfiles.pstatic.net/MjAyMDA0MDNfMTA2/MDAxNTg1OTExMDQ1NTI5.P17sN8p2a9-VLxBj925pnc5VObM_bjGZXMF9b_dW_zcg.B3qmjqddpLwMzuH02GGhkM79Nxut3pmCGhVe-PGx6dIg.PNG.kjh920411/image.png"> <a/> <br/>
 
 
