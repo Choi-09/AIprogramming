@@ -36,11 +36,11 @@ y = mx +b
 
 <img src= "https://user-images.githubusercontent.com/51871037/211140756-dafc7368-3d3d-43d5-92a1-094b416da2ee.PNG"> 		
 > 데이터는 좌표평면 위에 순서쌍 (X, Y)로 표현할 수 있다. <br> 모든 점을 지나는 직선이 가장 이상적인 선형회귀 모델이지만 현실적으로 불가능하므로, 가능한 범위에서 가장 좋은 직선을 찾아야 한다.
-
-#### > 선형회귀모델 최적의 직선 찾기
+```
+선형회귀모델 최적의 직선 찾기
 - RSS: 잔차 제곱의 합
 - OLS: 최소제곱법 (노이즈(이상치)에 취약하다)
-  
+```  
 ### (2) 다중 선형 회귀
 y = mx1 + nx2 + kx3 +b <br/>
 <img src= "https://user-images.githubusercontent.com/51871037/211141939-7525a292-d357-4d55-a0e8-4024bd295d42.PNG" width = "40%">
@@ -49,18 +49,19 @@ y = mx1 + nx2 + kx3 +b <br/>
 y = b + m1x + m2x^2 + m3x^3 + ... + mnx^n <br/>
 <img src= "https://user-images.githubusercontent.com/51871037/211142296-58c53119-4d99-4d6a-9b43-22fbda15ecbe.png">
 + 참고사이트: https://arachnoid.com/polysolve/
-    
-#### > 원 핫 인코딩
+```   
+ > 원 핫 인코딩
 + 표현하고 싶은 값만 1로, 나머지는 모두 0으로 <br/>
 <img src= "https://user-images.githubusercontent.com/51871037/211142177-5b1aeb21-c010-4bf0-872e-cc5532019d77.PNG">
-  
-#### > 다중 공선성
+```
+```
+> 다중 공선성
 독립 변수들 간에 서로 강한 상관관계를 가지면서 회귀계수 추정의 오류가 나타나는 문제 <br/>
 => 하나의 피처가 다른 피처에 영향을 미치는 것<br/>
 ex) Home + Library + cafe = 1 <br/>
         Home = 1 - (Library + cafe) <br/>
 => Dummy Column이 n 개면 n-1개만 사용해서 다중 공선성 문제를 해결할수있다.
-  
+```  
 ### (4) 회귀 모델 평가 지표
 - 평균 절대 오차 (MAE): 실제 값과 예측 값의 차이를 절댓값으로 변환해 평균한 것
 - 평균 제곱 오차(MSE): 실제 값과 예측 값의 차이를 제곱해 평균한 것. 회귀분석 손실함수로 자주 사용
@@ -84,7 +85,7 @@ ex) Home + Library + cafe = 1 <br/>
  + True Negative (NP): 실제 거짓을 거짓이라고 예측
  + False Positive (FP): 실제 거짓을 참이라고 예측
  + False Negative (NP): 실제 참을 거짓이라고 예측 <br/>
-    
+ 
 #### > 지표, 계산법
 + 민감도 (Sensitivity):	(TP / (TP + FN)) 양성 중 맞춘 양성의 수
 + 특이도 (Specificity):	(TN / (FP + TN)) 음성 중 맞춘 음성의 수
